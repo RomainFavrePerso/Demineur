@@ -21,7 +21,7 @@
             <TextBlock  Text="Démineur" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontWeight="Black"/>
             <TextBlock></TextBlock>
         </Grid>
-        
+
         <Grid Grid.Column="1" Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="8*"/>
