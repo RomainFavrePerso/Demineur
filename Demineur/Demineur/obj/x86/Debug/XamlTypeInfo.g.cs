@@ -132,17 +132,15 @@ namespace Demineur.Demineur_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
-            _typeNameTable[0] = "Demineur.MainPage";
+            _typeNameTable = new string[3];
+            _typeNameTable[0] = "Demineur.Pages.Accueil";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "Demineur.Pages.Accueil";
 
-            _typeTable = new global::System.Type[4];
-            _typeTable[0] = typeof(global::Demineur.MainPage);
+            _typeTable = new global::System.Type[3];
+            _typeTable[0] = typeof(global::Demineur.Pages.Accueil);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::Demineur.Pages.Accueil);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -177,8 +175,7 @@ namespace Demineur.Demineur_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::Demineur.MainPage(); }
-        private object Activate_3_Accueil() { return new global::Demineur.Pages.Accueil(); }
+        private object Activate_0_Accueil() { return new global::Demineur.Pages.Accueil(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -190,9 +187,9 @@ namespace Demineur.Demineur_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Demineur.MainPage
+            case 0:   //  Demineur.Pages.Accueil
                 userType = new global::Demineur.Demineur_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_Accueil;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -203,13 +200,6 @@ namespace Demineur.Demineur_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::Demineur.Demineur_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 3:   //  Demineur.Pages.Accueil
-                userType = new global::Demineur.Demineur_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_Accueil;
-                userType.SetIsLocalType();
-                xamlType = userType;
                 break;
             }
             return xamlType;

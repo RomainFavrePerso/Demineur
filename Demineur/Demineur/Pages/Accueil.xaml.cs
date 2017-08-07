@@ -26,5 +26,16 @@ namespace Demineur.Pages
         {
             this.InitializeComponent();
         }
+
+        private void FirstDifficultyButton_Click(object sender, RoutedEventArgs e)
+        {
+            // ToDo : Launch the game with the right parameters
+        }
+
+        private void QuitButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Quit The application
+            Application.Current.Exit();
+        }
     }
 }

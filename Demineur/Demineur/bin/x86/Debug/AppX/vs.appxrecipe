@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Dev\git\Demineur\Demineur\Demineur\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-03T20:45:17.231</Modified>
+      <Modified>2017-08-07T19:23:59.548</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Dev\git\Demineur\Demineur\Demineur\bin\x86\Debug\Demineur.exe">
       <PackagePath>entrypoint\Demineur.exe</PackagePath>
-      <Modified>2017-08-03T20:45:16.674</Modified>
+      <Modified>2017-08-07T19:23:59.044</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Eternight\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -535,7 +535,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\git\Demineur\Demineur\Demineur\bin\x86\Debug\Demineur.xr.xml">
       <PackagePath>Demineur.xr.xml</PackagePath>
-      <Modified>2017-08-03T20:44:23.932</Modified>
+      <Modified>2017-08-07T19:23:58.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -544,11 +544,11 @@
     <AppxPackagedFile Include="D:\Dev\git\Demineur\Demineur\Demineur\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-03T20:45:17.071</Modified>
+      <Modified>2017-08-07T19:23:59.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Dev\git\Demineur\Demineur\Demineur\bin\x86\Debug\Core\Demineur.exe">
       <PackagePath>Demineur.exe</PackagePath>
-      <Modified>2017-08-03T20:45:17.227</Modified>
+      <Modified>2017-08-07T19:23:59.545</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
